@@ -2,10 +2,6 @@ package yating_asr;
 
 import java.util.List;
 
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) {
         String asrApiUrl = "ASR_ENDPOINT";
