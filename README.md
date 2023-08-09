@@ -22,6 +22,14 @@
 }
 ```
 
+## Task Flow
+
+1. 發送 transcription task。
+
+1. 取得 transcription 狀態，直到取得最終狀態。
+
+1. 若最終狀態為 `completed`，取回最後辨識結果。
+
 ## Available Variable
 
 ### Audio Uri
