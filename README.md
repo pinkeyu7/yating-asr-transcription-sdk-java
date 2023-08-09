@@ -30,6 +30,58 @@
 }
 ```
 
+### Output
+
+```JSON
+{
+    "id": 1,
+    "uid": "15b36085-fa6d-4691-aced-ddbc34b9927e",
+    "audioUri": "http://www.example.com/audio.mp3",
+    "model": "asr-zh-en-std",
+    "customLm": "",
+    "isPunctuation": 1,
+    "isSpeakerDiarization": 1,
+    "speakerCount": 1,
+    "isSentiment": 1,
+    "status": "completed",
+    "createdAt": "2023-08-09T10:39:23.807Z",
+    "updatedAt": "2023-08-09T10:42:34.000Z",
+    "sentences": [
+        {
+            "sentence": "我是古阿莫。",
+            "speakerId": "0",
+            "start": 99,
+            "end": 783789,
+            "confidence": 1,
+            "words": [
+                {
+                    "word": "我是",
+                    "start": 99,
+                    "end": 379,
+                    "punctuator": ""
+                },
+                {
+                    "word": "雅婷",
+                    "start": 379,
+                    "end": 499,
+                    "punctuator": ""
+                },
+                {
+                    "word": "語音",
+                    "start": 499,
+                    "end": 1298,
+                    "punctuator": "。"
+                }
+            ],
+            "sentiment": 0
+        }
+    ],
+    "progress": {
+        "value": 100
+    }
+}
+```
+
 ## Available Variable
 
 ### Audio Uri
