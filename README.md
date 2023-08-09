@@ -48,7 +48,7 @@
     "updatedAt": "2023-08-09T10:42:34.000Z",
     "sentences": [
         {
-            "sentence": "我是古阿莫。",
+            "sentence": "我是雅婷語音。",
             "speakerId": "0",
             "start": 99,
             "end": 783789,
