@@ -51,7 +51,7 @@
             "sentence": "我是雅婷語音。",
             "speakerId": "0",
             "start": 99,
-            "end": 783789,
+            "end": 1298,
             "confidence": 1,
             "words": [
                 {
